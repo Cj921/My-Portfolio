@@ -1,0 +1,179 @@
+body {
+	margin: 0px 0px 0px 0px;
+	background-image: url("images/background3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.logo {
+	text-decoration: none;
+	color: #ffffff;
+}
+nav h2 {
+	padding-left: 100px;
+	font-family: courier new;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #ffbf36;
+    border-bottom: solid #d14e02;
+    box-shadow: 2PX 2PX 12P rgba(0, 0, 0, 0.2);
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+	padding-right: 150px;
+}
+
+a:active {
+	color: #000000;
+}
+a:hover {
+	color: #000000;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: courier new;
+	font-weight: bold;
+	padding: 15px;
+}
+.container {
+	align-items: center;
+	width: 100%;
+	padding-bottom: 50px;
+	margin:150px 0px 0px 0px;
+}
+
+.container p:nth-child(1) {
+	font-family: Tahoma;
+	font-size: 70px;
+	font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.container p:nth-child(2) {
+	font-family: courier new;
+	font-size: 28px;
+	font-weight: bold;
+    text-align: center;
+}
+
+.container button {
+	width: 200px;
+	height: 50px;
+	margin-left: 700px;
+	border-radius: 10px;
+	font-family: courier new;
+	font-weight: bold;
+	font-size: 20px;
+	outline: none;
+	background-color: transparent;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+hire-me {
+	border: 2px solid #373636;
+}
+button:active {
+	transform: scale(1.1);
+}
+
+
+/***CONTACT PAGE**************************/
+
+.contact-container {
+	box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2);
+	background-color: #ffffff;
+	border-radius: 10px;
+	width: 50%;
+	height: 350px;
+    line-height: 0px;
+    margin-top: 100px;
+    margin-left: 400px;
+    position: relative;
+}
+.contact-container p:nth-child(1) {
+	font-family: Tahoma;
+	font-size: 40px;
+	font-weight: bold;
+    text-align: center;
+    line-height: 0px;
+}
+.contact-container p:nth-child(2) {
+	font-family: courier new;
+	font-size: 20px;
+	font-weight: bold;
+    text-align: left;
+    line-height: 18px;
+    text-align: center;
+}
+
+.letstalk {
+	padding-left: 20px;
+	padding-top: 15px;
+	margin-top: 40px;
+	margin-left: 65px;
+	background-color: #dbdbdb;
+	border-radius: 5px;
+	width: 80%;
+	height: 70%;
+	position: absolute;
+}
+
+.contact-container button {
+    width: 180px;
+	height: 40px;
+	margin-left: 225px;
+	border-radius: 7px;
+	font-family: courier new;
+	font-weight: bold;
+	font-size: 20px;
+	outline: none;
+	background-color: #ffbf36;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+/*
+.social {
+	position: absolute;
+	width: 35%;
+	height: 68%;
+	background-color:#dbdbdb ;
+	border-radius: 5px;
+	margin-left: 570px;
+	margin-top: 50px;
+
+}
+*/
+.social-icons a {
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e6e3e3;
+	margin: 20px 10px;
+	border-radius: 20%;
+}
+
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+}
+.social-icons i {
+	color: #000000;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e6e3e3;
+	margin: 20px 10px;
+	border-radius: 20%;
+}
